@@ -26,3 +26,4 @@ User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://handwerkersoftwarekmu.ch/sitemap.xml
+Sitemap: https://handwerkersoftwarekmu.ch/fr-ch/sitemap.xml
