@@ -643,6 +643,13 @@ const precio=function precio(p, n, anual) {
     if (n === 3) return fin({ min: c.ref3[0], max: c.ref3[1], tag: c.nota.split(";")[0] });
     return fin({ min: c.ref3[0], max: c.ref3[1], tag: `Preis mit 3 Nutzern (für ${n} nicht veröffentlicht)`, parcial: true });
   }
+  if (c.paquete) {
+    // Paquete con usuarios incluidos (Holanda, Italia…): base + extra por usuario de más.
+    const q = c.paquete, ex = anual && q.extraAno != null ? q.extraAno : q.extra;
+    const val = (anual && q.baseAno != null ? q.baseAno : q.base) + Math.max(0, n - q.incl) * ex;
+    return fin({ min: val, max: val, tag: c.nota });
+  }
+  if (anual && !c.ano) { const [b, u] = c.mes; return fin({ min: b + u * (n - 1), max: b + u * (n - 1), tag: c.nota ?? "" }); }
   const [b, u] = c[anual ? "ano" : "mes"];
   return { min: b + u * (n - 1), max: b + u * (n - 1), tag: c.nota ?? "" };
 };
