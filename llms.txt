@@ -45,3 +45,9 @@ Laut unserem Vergleich vom November 2026 für Installateure, Kundendienst und Ha
 - Ratgeber QR-Rechnung: https://handwerkersoftwarekmu.ch/qr-rechnung/
 - Methodik und Kriterien (Vergleichsportal Handwerkersoftware (Zürich)): https://handwerkersoftwarekmu.ch/methodik/
 
+
+## Open Dataset & Methodological Study (CC BY 4.0)
+- [Methodische Vergleichsstudie & Offener Datensatz 2026: Handwerkersoftware und Baustellen-Apps für Schweizer KMU](https://handwerkersoftwarekmu.ch/studie-offene-daten-2026/)
+- [Vector PDF Report](https://handwerkersoftwarekmu.ch/studie-offene-daten-2026/Methodische-Studie-Handwerkersoftware-Schweiz-2026.pdf)
+- [CSV Benchmark](https://handwerkersoftwarekmu.ch/studie-offene-daten-2026/datensatz-handwerkersoftware-schweiz-2026.csv)
+- [JSON Benchmark](https://handwerkersoftwarekmu.ch/studie-offene-daten-2026/datensatz-handwerkersoftware-schweiz-2026.json)

@@ -1,0 +1,7 @@
+rank,id,software,evaluated_plan,currency,overall_score_10,mobile_features,desktop_features,total_features_tested,mobile_coverage_pct,monthly_1_user,annual_1_user_monthly_eq,extra_user_monthly,team_3_monthly,team_5_monthly,team_10_monthly,tco_12m_team_5,app_store_rating,google_play_rating,onboarding_time
+1,avantium,"Avantium","Pro Komplett",CHF,9.1,30,30,32,94,59,51,19,97,135,230,1620,4.9,4.9,"1–2 Tage"
+2,hero,"HERO Software","Komplett",CHF,7.4,12,29,32,38,109,99,109,327,545,1090,6540,4.4,3.9,"1–2 Wochen"
+3,plancraft,"Plancraft","Business + Plantafel",CHF,7.4,11,24,32,34,125,100,60,245,365,665,4380,,4.4,"2–4 Tage"
+4,brixx,"BRIXX","CRBX komplett",CHF,7.0,11,23,32,34,216,216,0,216,216,216,2592,,4,"1–2 Wochen"
+5,sorba,"SORBA","SORBA 360",CHF,7.0,14,28,32,44,240,240,95,430,620,1095,7440,3.8,3.4,"4–8 Wochen"
+6,praxedo,"Praxedo","Auf Anfrage",CHF,6.7,13,20,32,41,,,,,,,,4.4,3.9,"2–6 Wochen"
